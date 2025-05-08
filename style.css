@@ -1,0 +1,558 @@
+/* 
+    Theme Name: WT Tech
+    Description: It's description demo.
+    Author: Kapil Dev
+    Version: 1.0
+    Author URI: https://www.google.com
+
+*/
+
+* {
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0px 10px 0 10px;
+
+}
+
+body {
+    background-color: #e3e6e6;
+}
+
+/* Box 1 */
+
+.nav-logo {
+    height: 50px;
+    display: flex;
+    width: auto;
+    min-width: 140px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    height: 40px;
+    width: 120px;
+    background-size: cover;
+
+}
+
+.border {
+    border: 1.5px solid transparent;
+    border-radius: 1.5px;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 1.5px;
+}
+
+/* Nav Box 2*/
+
+.nav-address { 
+    width: 150px;
+    justify-items: center;
+    padding: 8px 0px 8px 0px;
+    white-space: nowrap;
+    /* padding-right: 20px; */
+
+}
+
+.add-first {
+    font-size: 0.70rem;
+    color: #cccccc;
+    margin-left: 28px;
+}
+
+.add-second {
+    font-size: .85rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.add-icon-class {
+    font-size: .75rem;
+}
+
+
+/* Nav Box 3*/
+
+.nav-search {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    min-width: 440px;
+    margin-left: 10px;
+    border: 2px solid transparent;
+    justify-content: space-evenly;
+    
+}
+
+.nav-search:hover, .nav-search:focus {
+    border: 2.5px solid #ff9900;
+    border-radius: 6px;
+}
+
+.nav-search:focus-within {
+    border: 2.5px solid #ff9900;
+    border-radius: 6px;
+}
+
+.search-select {
+    width: 52px;
+    background-color: #e6e6e6;
+    border: none;
+    font-size: .80rem;
+    padding-left: 5px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    color: #333232;
+    outline: none;
+}
+
+.search-select:hover {
+    color: #000000;
+    background-color: #c4c4c4;
+
+}
+
+.search-select:focus {
+    color: #000000;
+    background-color: #c4c4c4;
+
+}
+
+.search-box {
+    width: 100%;
+    font-size: 0.90rem;
+    border: none;
+    outline: none;
+    padding-left: 7px;
+    /* font-weight: 540; */
+    
+}
+
+.search-icon {
+    width: 45px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+    font-size: 1rem;
+    
+}
+
+.search-icon:hover {
+    background-color: #ff9900;
+}
+
+/* Box 4 */
+
+.nav-account {
+    margin-left: 20px;
+    padding: 8px;
+    width: 200px;
+    white-space: nowrap;
+}
+
+.nav-account-p1 {
+    font-size: 0.70rem;
+}
+
+.nav-account-p2 {
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/** Nav Box 5 **/
+
+.nav-orders {
+    padding: 8px;
+    width: 130px;
+    white-space: nowrap;
+}
+
+.nav-orders-p1 {
+    font-size: .70rem;
+}
+
+.nav-orders-p2 {
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/** Nav Box 6 **/
+
+.nav-cart {
+    display: flex;
+    width: 85px;
+    padding: 8px;
+    
+}
+
+.cart-icon {
+    font-size: 25px;
+
+}
+
+.nav-cart p{
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding-top: 10px ;
+    position: static;
+    
+}
+
+/** Header Second Started **/
+
+.header-panel {
+    display: flex; 
+    justify-content: start;
+    align-items: center;
+    background-color: #232f3e;
+    height: 40px;
+    color: white;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    padding: 0px 10px 0 10px;
+
+}
+
+.panel-menu {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 11.5px 6px 11.5px 11px;
+}
+
+.panel-menu i {
+    width: 17px;
+    height: 14px;
+}
+
+.panel-menu p {
+    /* padding-left: 5px; */
+    font-weight: 700;
+}
+
+.panel-ops {
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.panel-ops p {
+    padding: 11.5px 6px 11.5px 6px;
+    
+}
+
+.panel-ops-right p {
+    padding: 11.5px 6px 11.5px 6px;
+    justify-content: end;
+    
+}
+
+/* Slider Section Started */
+
+.hero-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 550px; */
+}
+
+.banner {
+    object-fit: cover;
+    object-position: top;
+    width: 100vw;
+    height: 500px;
+    overflow: hidden;
+    
+}
+
+.slider-patch {
+    position:absolute;
+    background-color: white;
+    color: 0f1111;
+    font-size: .9rem;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.slider-patch a {
+    color: #2162a1;
+    outline: 5px;
+}
+
+.hero-box-container {
+    position: absolute;
+    bottom: -39%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    /* gap: 3%; */
+
+}
+
+.hero-box {
+    width: 23%;
+    height: 385px;
+    background-color: white;
+    /* display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;  */
+    /* color: black;
+    border: 2px solid transparent;
+    border-radius: 2px; */
+    padding-top: 18px;
+    padding-right: 10px;
+    padding-left: 15px;
+    
+}
+
+.hero-box-short-image {
+    height: 50px;
+    width: 50px;
+
+}
+
+.hero-box-inner1 {
+    width: auto;
+    height: 50px;
+    justify-content: center;
+
+}
+
+.hero-box-inner1 h3 {
+    font-size: 21px;
+    padding-left: 5px;
+
+}
+
+.hero-box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    text-align: center;
+
+}
+
+.hero-box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.hero-box-item img {
+    width: 120px; /* Adjust the size */
+    height: 100px; 
+    object-fit: cover;
+    
+}
+
+.hero-box-item p {
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.hero-box a {
+    color: #3771aa;
+    padding-left: 5px;
+}
+
+.see-more {
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 0.9rem;
+    padding-left: 2px;
+}
+
+.hero-box-big-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-box-big-image img{
+    width: 270px;
+    height: 280px;
+    object-fit: cover;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+/** Body Boxes **/
+
+.body-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 6px;
+}
+
+.body-box img {
+    margin-top: 18px;
+    /* padding-top: 20px; */
+}
+
+.body-box h3 {
+    font-size: 21px;
+}
+
+.body-box a {
+    color: #3771aa;
+    padding-left: 2px;
+    margin-top: 5px;
+}
+
+.body-box-top {
+    margin-top: 200px;
+}
+
+.box {
+    height: 385px;
+    width: 23%;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 15px;
+    
+}
+
+/** Footer Panel Started */
+
+.footer-panel {
+    height: 400px;
+    /* background-color: transparent; */
+    margin-top: 20px;
+
+}
+
+.footer-back-to-top {
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-back-to-top a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #232f3e;
+    height: 300px;
+
+}
+
+.footer-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    
+
+}
+
+.footer-column li {
+    padding-bottom: 10px;
+}
+
+.footer-column a {
+    color: #dadcdd;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+    
+}
+
+.footer-menu {
+    height: 370px;
+    background-color: #232f3e;
+}
+
+.footer-copyright {
+    height: 50px;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright {
+    color: white;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
