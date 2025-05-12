@@ -42,10 +42,12 @@ body {
 }
 
 .logo {
-    background-image: url("amazon_logo.png");
-    height: 40px;
+
+    height: auto;
     width: 120px;
     background-size: cover;
+    object-fit: contain;
+    display: block;
 
 }
 
