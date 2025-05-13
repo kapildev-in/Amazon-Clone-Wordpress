@@ -4,6 +4,12 @@
 
 
 <main class="page-content">
+
+    <div class="breadcrumb">
+    <a href="<?php echo home_url(); ?>">Home</a>/<strong><?php the_title(); ?> </strong>
+
+    </div>
+
     <section class="content-wrapper">
     <div class="container">
     <h1 class="page-title">

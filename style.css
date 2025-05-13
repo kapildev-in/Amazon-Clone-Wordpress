@@ -605,8 +605,7 @@ body {
 .page-title {
     background-color: white;
     border-left: 2px solid blue;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
     padding: 5px;
     margin-bottom: 15px;
 
