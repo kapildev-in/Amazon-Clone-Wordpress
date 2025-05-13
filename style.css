@@ -598,7 +598,11 @@ body {
 
 
 .container {
-    
+        background-color: white;
+        padding-top: 5px;
+        margin-top: 5px;
+        border: 1px solid transparent;
+        border-radius: 5px;
 
 }
 
@@ -606,7 +610,8 @@ body {
     background-color: white;
     border-left: 2px solid blue;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
+    margin-left: 5px;
     margin-bottom: 15px;
 
 }
@@ -616,6 +621,7 @@ body {
     padding: 5px;
     border: 1px solid transparent;
     border-radius: 5px;
+
 
 }
 
