@@ -590,9 +590,35 @@ body {
 }
 
 
+/* Page.php content style started */
+
+.page-content {
+    padding: 20px 10px;
+}
 
 
+.container {
+    
 
+}
+
+.page-title {
+    background-color: white;
+    border-left: 2px solid blue;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+
+}
+
+.page-body {
+    background-color: white;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+
+}
 
 
 
