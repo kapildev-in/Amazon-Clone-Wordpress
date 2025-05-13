@@ -60,20 +60,29 @@
          </div>    
 
         <div class="header-panel">
+            <!-- Group .panel-menu and .nav together -->
+             <div class="panel-left">   <!-- added this class for grouping -->
             <div class="panel-menu border">
                 <i class="fa-solid fa-bars"></i>
-                <p>All</p>
-                
+                <p>All</p>   
             </div>
 
-            <div class="panel-ops">
+            <!-- <div class="panel-ops">
                 <p class="border">Today's Deals</p>
                 <p class="border">Customer Service</p>
                 <p class="border">Registry</p>
                 <p class="border">Gift Cards</p>
                 <p class="border">Sell</p>
                 
+            </div> --> 
+            <!-- Above code is for HTML base menu, which'll commented out and added below code for calling wp menu on front end-->
+
+            <?php wp_nav_menu(
+                array('theme_location'=>'primary-menu', 'menu_class'=>'nav')
+            ) ?>
+
             </div>
+            
 
             <div class="panel-ops-right">
                 <p class="border">Track Your Orders</p>
