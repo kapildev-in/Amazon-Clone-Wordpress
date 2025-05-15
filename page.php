@@ -6,10 +6,10 @@
 <main class="page-content">
 
     <div class="breadcrumb">
-        <a href="<?php echo home_url(); ?>">Home</a>/<strong><?php the_title(); ?> </strong>
+        <a href="<?php echo home_url(); ?>">Home</a>/<strong><?php the_title(); ?> </strong> 
     </div>
 
-    <?php  the_post_thumbnail('medium'); ?>
+    <?php  the_post_thumbnail('medium'); ?> <!-- This code is for showing thumbail on frontend-->
 
     <section class="content-wrapper">
         <div class="container">
