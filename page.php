@@ -9,6 +9,8 @@
         <a href="<?php echo home_url(); ?>">Home</a>/<strong><?php the_title(); ?> </strong>
     </div>
 
+    <?php  the_post_thumbnail('medium'); ?>
+
     <section class="content-wrapper">
         <div class="container">
             <h1 class="page-title"> <?php the_title(); ?> </h1>
