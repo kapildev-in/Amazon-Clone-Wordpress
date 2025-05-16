@@ -639,11 +639,23 @@ body {
 }
 
 /* Page.php content style Closed */
+
 /* Contact Page Style Started */
 
 .page-contact {
+
     padding: 10px 10px;
 
 }
+
+/* Contact Page Style Closed */
+
+/* Portfolio Page Style Started */
+
+.page-portfolio {
+    padding: 10px 10px;
+}
+
+/* Portfolio Page Style Closed */
 
 
