@@ -16,7 +16,8 @@
 
             <div class="nav-logo border">
                 <!-- <div class="logo"></div> -->
-                <img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/amazon_logo.png" alt="Amazon Logo">
+                 <?php $logoimg=get_header_image(); ?>
+                <a href="<?php home_url(); ?>" > <img class="logo" src="<?php echo $logoimg; ?>" alt="Logo"></a>
                 
             </div>
             
